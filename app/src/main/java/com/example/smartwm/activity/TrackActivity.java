@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.example.smartwm.R;
 
 public class TrackActivity extends AppCompatActivity {
+    // Declaring variables for getting buttons from the layout
     private Button btnLogout, btnCall, btnMsg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

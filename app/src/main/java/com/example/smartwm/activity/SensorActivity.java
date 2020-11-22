@@ -12,6 +12,7 @@ import android.widget.Button;
 import com.example.smartwm.R;
 
 public class SensorActivity extends AppCompatActivity {
+    //Variable for logout button
     private Button btnLogout;
 
     @Override
@@ -31,6 +32,7 @@ public class SensorActivity extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPref sp =new SharedPref(SensorActivity.this);
                 sp.logout();
+                // Calling login activity on click
                 Intent i = new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(i);
                 finish();
@@ -38,7 +40,7 @@ public class SensorActivity extends AppCompatActivity {
         });
 
     }
-
+    // Code for displaying menu
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         onBackPressed();
