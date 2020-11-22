@@ -30,6 +30,12 @@
         <activity
             android:name=".activity.SignupActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SensorActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
