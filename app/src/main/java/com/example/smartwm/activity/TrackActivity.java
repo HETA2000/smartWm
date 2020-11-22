@@ -23,6 +23,7 @@ public class TrackActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Track Pickup");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //Variables
         btnLogout = findViewById(R.id.btnLogout);
         btnCall = findViewById(R.id.btnCall);
         btnMsg = findViewById(R.id.btnMsg);

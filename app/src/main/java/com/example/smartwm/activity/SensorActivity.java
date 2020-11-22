@@ -26,6 +26,7 @@ public class SensorActivity extends AppCompatActivity {
         btnLogout = findViewById(R.id.btnLogout);
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
+            // Setting shared pref
             @Override
             public void onClick(View v) {
                 SharedPref sp =new SharedPref(SensorActivity.this);
