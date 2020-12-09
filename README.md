@@ -28,7 +28,7 @@ The main Screen contain 6 different block which can go to different screen. All 
 # 3 screen : Schedule Screen (Heta Patel)
  The whole screen is divided into 4 blocks. First Block is about the Garbage Category. Second Block is about the day of the week choose for the Schedule pickup. Also, checkboxes are included. Third Block is about the Pickup Address. User can Edit the Address from the side EditText. Fourth Block is about the Button of Schedule Pickup.
 
-# 4 Screen : Tracking Screen ()
+# 4 Screen : Tracking Screen (Sneha Rosy Thomas)
  The whole screen is divided into 3 blocks. First Block is about the Tracking the vehicle. Second Block is about the drivers information. Also we can call the number. For our we have just taken contant number 123456789. Third Block is about the  Address. User can Edit the Address from the side EditText.
 
 # 5 screen :Caputer Screen(Heta Patel) 
