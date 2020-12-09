@@ -28,7 +28,7 @@ The main Screen contain 6 different block which can go to different screen. All 
 # 3 screen : Schedule Screen (Heta Patel)
  The whole screen is divided into 4 blocks. First Block is about the Garbage Category. Second Block is about the day of the week choose for the Schedule pickup. Also, checkboxes are included. Third Block is about the Pickup Address. User can Edit the Address from the side EditText. Fourth Block is about the Button of Schedule Pickup.
 
-# 4 Screen : Tracking Screen (Sneha Rosy Thomas)
+# 4 Screen : Tracking Screen (Sneha Rosy Thomas and Sheba Ann Moncy)
  The whole screen is divided into 3 blocks. First Block is about the Tracking the vehicle. Second Block is about the drivers information. Also we can call the number. For our we have just taken contant number 123456789. Third Block is about the  Address. User can Edit the Address from the side EditText.
 
 # 5 screen :Caputer Screen(Heta Patel) 
@@ -37,7 +37,7 @@ The main Screen contain 6 different block which can go to different screen. All 
 # 6 screen: payment Screen(Ashna Davis)
 The whole screen is divided into 2 blocks. First Block is about the block of send money and request money. Second Block is about differnt payment option.
 
-# 7 Screen: Sensor Screen()
+# 7 Screen: Sensor Screen( Sheba Ann Moncy)
 The whole screen is divided into 5 blocks. First Block is about the Ultra Sonic Distance Sensor. We have put two button high and low.  Second Block is about Inductive Sensor. We have put two button Yes and No. Third Block is about the Temperature measurement. Fourth Block is about the Humidity Mesurement. Fifth Block is about the Submit Button.
 
 # 8 Screen: Other Service
