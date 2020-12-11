@@ -1,4 +1,4 @@
-package smart.wm.smart_wm;
+package com.example.smartwm.activity;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,11 +16,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.smartwm.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,6 +32,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class activity_camera extends AppCompatActivity {
+
+    private ImageView ivImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -162,4 +167,3 @@ public class activity_camera extends AppCompatActivity {
             return super.onOptionsItemSelected(item);
         }
     }
-}
