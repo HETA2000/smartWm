@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.smartwm.R;
-
+//Aurora
 public class PaymentActivity extends AppCompatActivity {
 
     @Override
