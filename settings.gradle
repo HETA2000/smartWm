@@ -1,2 +1,2 @@
-include ':app'
+include ':Aurora'
 rootProject.name = "Smart WM"

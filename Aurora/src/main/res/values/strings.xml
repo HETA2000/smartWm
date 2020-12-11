@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smart WM</string>
+    <string name="description">Imageview</string>
+    <string name="btnLogout">Logout</string>
+    <string name="btnscd">Schedule Pickup</string>
+    <string name="tkpickup">Track Pickup</string>
+    <string name="captrewaste">Capture Waste</string>
+    <string name="sensor">Sensor</string>
+    <string name="pay">Payment</string>
+    <string name="other">Other Services</string>
+</resources>
