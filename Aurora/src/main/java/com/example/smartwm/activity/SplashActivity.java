@@ -1,3 +1,4 @@
+// Team name: Aurora 
 package com.example.smartwm.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
