@@ -12,11 +12,13 @@
         android:layout_margin="@dimen/_5sdp"
         android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/map_sample" />
-
+         <ImageButton
+            android:id="@+id/btnBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            card_view:srcCompat="@drawable/map_sample" />
+   
     </LinearLayout>
 
     <LinearLayout
