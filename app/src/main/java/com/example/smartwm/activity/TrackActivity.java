@@ -15,7 +15,7 @@ import com.example.smartwm.R;
 
 public class TrackActivity extends AppCompatActivity {
     // Declaring variables for getting buttons from the layout
-    private Button btnLogout, btnCall, btnMsg;
+    private Button btnLogout, btnCall, btnMsg,btnImg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,18 @@ public class TrackActivity extends AppCompatActivity {
         btnLogout = findViewById(R.id.btnLogout);
         btnCall = findViewById(R.id.btnCall);
         btnMsg = findViewById(R.id.btnMsg);
+        btnImg=  findViewById(R.id.btnBut);
 
+        btnImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("geo:43.6532,79.3832"));
+                Intent chooser=Intent.createChooser(intent,"Launch Map");
+                startActivity(chooser);
+
+            }
+        });
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
