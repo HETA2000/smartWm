@@ -103,20 +103,24 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onBackPressed() {
-        if (BackPressed) {
-            super.onBackPressed();
-            return;
-        }
-
-        this.BackPressed = true;
-        Toast.makeText(this, "Press Back Again To Exit", Toast.LENGTH_SHORT).show();
-
-        new Handler().postDelayed(new Runnable() {
-
+               AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setTitle("Confirm Exit/.");
+        alertDialogBuilder.setMessage("Are you sure to exit?");
+        alertDialogBuilder.setCancelable(false);
+        alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
-            public void run() {
-                BackPressed=false;
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
             }
-        }, 2000);
-    }
+        });
+        alertDialogBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+             Toast.makeText(HomeActivity.this,"you clicked on cancel",Toast.LENGTH_LONG).show();
+
+            }
+        });
+        AlertDialog alertDialog=alertDialogBuilder.create();
+        alertDialog.show();
+
 }
