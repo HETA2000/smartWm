@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+    <!--Aurora-->
 <resources>
     <string name="app_name">Smart WM</string>
     <string name="etName">Entrez le nom</string>
