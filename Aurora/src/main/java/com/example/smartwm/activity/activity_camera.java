@@ -35,6 +35,7 @@ import java.io.OutputStream;
 public class activity_camera extends AppCompatActivity {
 
     private ImageView ivImage;
+    Button Webview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +62,17 @@ public class activity_camera extends AppCompatActivity {
             cvImages = findViewById(R.id.cvImage);
             ivImage[0] = findViewById(R.id.ivImage);
             tvSaveImg[0] = findViewById(R.id.tvSaveImg);
+            webView=findViewById(R.id.btnWebView);
+            webview.setOnClickListener(new View.OnClickListener(){
+               @Override
+                public void onClick(View v) {
+                gotoUrl("https://www.amsa.gov.au/marine-environment/marine-pollution/garbage-management-plan-example");
+                }
+             });
+            private void gotoUrl(String s){
+            Uri uri=Uri.parse(s);
+              startActivity(new Intent(Intent.Action_View,uri));
+            }
 
             cvCamera.setOnClickListener(new View.OnClickListener() {
                 @Override
