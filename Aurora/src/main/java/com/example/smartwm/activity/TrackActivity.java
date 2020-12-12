@@ -64,7 +64,13 @@ public class TrackActivity extends AppCompatActivity {
         btnMsg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Coming Soon...",Toast.LENGTH_LONG).show();
+                 @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setData(Uri.parse("tel:0123456789"));
+                startActivity(intent);
+                }
+                Toast.makeText(getApplicationContext(),"Message Sent...",Toast.LENGTH_LONG).show();
             }
         });
 
