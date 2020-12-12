@@ -1,11 +1,58 @@
 <resources>
     <string name="app_name">Smart WM</string>
-    <string name="description">Imageview</string>
-    <string name="btnLogout">Logout</string>
+    <string name="etName">Enter Name</string>
+    <string name="etEmail">Enter Email</string>
+    <string name="etContact">Enter Phone Number</string>
+    <string name="etCPassword">Confirm Password</string>
+    <string name="btnRegister">Register</string>
+    <string name="account">Already have an Account?</string>
+    <string name="txtLogin">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="btnLogout">LogOut</string>
+    <string name="save_image">Save Captured Image</string>
+    <string name="txtcature">Capture</string>
+    <string name="btnupload">Upload</string>
+    <string name="txtcategory">Garbage Category</string>
+    <string name="txtmwtal">Metal</string>
+    <string name="amount" translatable="false">0</string>
+    <string name="txtkg" translatable="false">Kg</string>
+    <string name="txtnonmetal">Non Metal</string>
+    <string name="amountnon" translatable="false">0</string>
+    <string name="txtlocation">Location</string>
+    <string name="description" translatable="false">image</string>
     <string name="btnscd">Schedule Pickup</string>
     <string name="tkpickup">Track Pickup</string>
-    <string name="captrewaste">Capture Waste</string>
+    <string name="captrewaste">Capture Waste Image</string>
     <string name="sensor">Sensor</string>
-    <string name="pay">Payment</string>
+    <string name="pay">"Payment "</string>
     <string name="other">Other Services</string>
+    <string name="tvForgot">Forget Password</string>
+    <string name="tvcreate">Create new Account</string>
+    <string name="visa" translatable="false">Visa</string>
+    <string name="paypal" translatable="false">Paypal</string>
+    <string name="Mastercard" translatable="false">MasterCard</string>
+    <string name="Maestro" translatable="false">Maestro</string>
+    <string name="GPay" translatable="false">G Pay</string>
+    <string name="ApplePay" translatable="false">Apple Pay</string>
+    <string name="AmazonPay" translatable="false">Amazon Pay</string>
+    <string name="Discover">Discover</string>
+    <string name="PayOnDelivery">Pay On Delivery</string>
+    <string name="week">Week</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="RepeatDaily">Repeat Daily</string>
+    <string name="RepeatWeekly">Repeat Weekly</string>
+    <string name="Address">Address</string>
+    <string name="Enteradderss">Enter Your Address</string>
+    <string name="SchedulePickup">Schedule Pickup</string>
+    <string name="btnMsg" translatable="false">Message</string>
+    <string name="btncall">Call</string>
+    <string name="etPassword">Enter Password</string>
+    <string name="txtDrivername">"Driver Name "</string>
+
 </resources>

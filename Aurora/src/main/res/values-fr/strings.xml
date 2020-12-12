@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart WM</string>
+    <string name="etName">Entrez le nom</string>
+    <string name="etEmail">Entrez l\'email</string>
+    <string name="etContact">Entrez le numero de telephone</string>
+    <string name="etPassword">Entrer le mot de passe</string>
+    <string name="etCPassword">Confirmez le mot de passe</string>
+    <string name="btnRegister">S\'inscrire</string>
+    <string name="account">Vous avez déjà un compte?</string>
+    <string name="txtLogin">s\'identifier</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="btnLogout">Se déconnecter</string>
+    <string name="save_image">Enregistrer l\'image capturée</string>
+    <string name="txtcature">Capturer</string>
+    <string name="btnupload">Télécharger</string>
+    <string name="txtcategory">Catégorie de déchets</string>
+    <string name="txtmwtal">Métal</string>
+    <string name="txtnonmetal">non métallique</string>
+    <string name="txtlocation">emplacement</string>
+    <string name="btnscd">" Planifier le ramassage"</string>
+    <string name="tkpickup">Ramassage de piste</string>
+    <string name="captrewaste">Capturer l\'image des déchets</string>
+    <string name="sensor">capteur</string>
+    <string name="pay">Paiement</string>
+    <string name="other">autres services</string>
+    <string name="tvForgot">Mot de passe oublié</string>
+    <string name="tvcreate">créer un nouveau compte</string>
+    <string name="Discover">Découvrir</string>
+    <string name="PayOnDelivery">Payer à la livraison</string>
+    <string name="week">La semaine</string>
+    <string name="Sunday">Dimanche</string>
+    <string name="Tuesday">Mardi</string>
+    <string name="Monday">" Lundi"</string>
+    <string name="Wednesday">Mercredi</string>
+    <string name="Thursday">Jeudi</string>
+    <string name="Friday">Vendredi</string>
+    <string name="Saturday">Samedi</string>
+    <string name="RepeatDaily">Répéter quotidiennement</string>
+    <string name="RepeatWeekly">Répéter chaque semaine</string>
+    <string name="Address">adresse</string>
+    <string name="Enteradderss">Entrez votre Adresse</string>
+    <string name="SchedulePickup">" Planifier le ramassage"</string>
+    <string name="btncall">Appel</string>
+    <string name="txtDrivername">Nom du conducteur</string>
+</resources>
