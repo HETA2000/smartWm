@@ -43,4 +43,7 @@
     <string name="SchedulePickup">" Planifier le ramassage"</string>
     <string name="btncall">Appel</string>
     <string name="txtDrivername">Nom du conducteur</string>
+    <string name="contactNumber">Numéro de contact du conducteur</string>
+    <string name="More">Plus d\'informations</string>
+
 </resources>

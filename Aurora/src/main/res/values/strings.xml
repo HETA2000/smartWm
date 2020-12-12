@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Aurora-->
 <resources>
     <string name="app_name">Smart WM</string>
     <string name="etName">Enter Name</string>
@@ -54,5 +56,7 @@
     <string name="btncall">Call</string>
     <string name="etPassword">Enter Password</string>
     <string name="txtDrivername">"Driver Name "</string>
+    <string name="contactNumber">Driver Contact Number</string>
+    <string name="More">More Info...</string>
 
 </resources>
